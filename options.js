@@ -1,3 +1,4 @@
+// options.js
 // Save options to chrome.storage
 let saveButton = document.getElementById('save');
 saveButton.addEventListener('click', function() {

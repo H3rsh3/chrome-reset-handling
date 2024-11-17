@@ -1,19 +1,51 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Oops...</title>
-  <style>
-    body {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      font-family: sans-serif;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Access Restricted</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f4f4f4;
+            margin: 0;
+        }
+
+        .container {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        p {
+            color: #666;
+            margin-bottom: 20px;
+        }
+
+        .icon {
+            font-size: 4rem;
+            color: #ffcc00; /* Yellow icon */
+            margin-bottom: 20px;
+        }
+    </style>
 </head>
 <body>
-  <h1>Opps...</h1>
-  <p>This page is blocked by the Institution for your safety </p>
+    <div class="container">
+        <span class="icon">&#9888;</span> 
+        <h1>Access Restricted</h1>
+        <p>We've detected activity that could be harmfull to you or other and have temporarily restricted access to this resource to protect you.</p>
+        <p>Please review your recent activity and try again later or contact xxx.</p>
+    </div>
 </body>
 </html>

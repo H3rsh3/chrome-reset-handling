@@ -1,10 +1,9 @@
 {
     "manifest_version": 3,
-    "name": "Stalled Connection Page",
+    "name": "connection reset handling",
     "version": "4.0",
     "description": "Displays a custom page for stalled connections.",
-    "permissions": [
-      "activeTab", 
+    "permissions": [ 
       "storage",
       "webRequest"
     ],
